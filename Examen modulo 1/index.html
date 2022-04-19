@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--script CSS bootsrtap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Css stylesheet-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+    <title>Vista Valdivia</title>
+</head>
+
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+    <!--Logo imagen navbar-->
+            <a class="navbar-brand" href="index.html">
+              <img src="https://chileestuyo.cl/wp-content/themes/chilestuyo_v18/assets/img/logo-chileestuyo.svg" alt="" width="102" height="102">
+            </a>
+          
+      <a class="navbar-brand" href="#">Conoce Valdivia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#historia">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="noticias.html">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <!-- <span class="navbar-text">
+          Navbar text with an inline element -->
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <!--Portada page-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <!-- <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div> -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/costanera_valdivia.png" class="d-block w-100 imagen" alt="Valdivia rivera">
+        <div class="carousel-caption d-none d-md-block">
+          <h4 id="slide-title">Valdivia</h4>
+          <p id="slide-text">Una ciudad para vivir y visitar </p>
+        </div>
+      </div>
+  </div>
+
+
+  <!--  Historia Valdivia    -->
+  <div class="container">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <!--Ancla section historia-->
+      <a name="historia"></a> 
+      <div class="col-md-8">
+        <h2> Historia </h2>
+        <p>
+          Valdivia fue la primera ciudad fundada por los españoles en Chile. En 1552 el conquistador Pedro de Valdivia llamó a esta zona Santa María la Blanca de Valdivia y fue considerada un lugar estratégico en el sur del país por su salida al Océano Pacífico.
+          <br>
+          Los primeros pobladores de la zona fueron un pueblo mapuche-huilliche conocido como Ainil. Tras su fundación como ciudad española, comenzó un acelerado desarrollo por su puerto marítimo. Sin embargo, la ciudad fue azotada por un fuerte terremoto en 1575 y luego reconquistada por los indígenas en la Batalla de Curalaba, en 1598, quienes destruyeron la ciudad en 1599.
+          <br>
+          Luego de este hecho y de una incursión por parte de los holandeses en el territorio, durante 1645 se inició el repoblamiento español y se construyó el Fuerte de Mancera. A finales del siglo XVIII y por la importancia estratégica del sector en el extremo austral del continente, se construyó el Camino Real, que unió por tierra a Valdivia y Chiloé.
+          <br>
+          La bahía de Valdivia, llamada Corral, fue fortificada con un amplio sistema defensivo, compuesto de 17 fuertes construidos para resistir el asedio de piratas y corsarios holandeses e ingleses, que no lograron ingresar a la ciudad para saquearla.
+          <br>
+          Posteriormente y después de la Independencia de Chile, se inició un proceso de atraer inmigrantes alemanes a la zona, ya que se pensaba que su presencia podría influir positivamente en el desarrollo de la zona. Los nuevos colonos llegaron con tecnología para la industria, desarrollaron tierras cultivables y aportaron con su cultura y tradiciones a la identidad de la ciudad.
+          <br>
+          Valdivia se convirtió en un importante puerto por ubicarse a orillas de uno de los pocos ríos navegables en Chile, lo que permitió construir grandes obras portuarias.
+          <br>
+          La ciudad también es conocida por haber protagonizado el 22 de mayo de 1960 el Terremoto de Valdivia, el más grande evento sísmico registrado por los instrumentos modernos, con más de 10 grados en la escala de Richter. Fue tan intenso, que provocó tsunamis en las costas de Japón y Hawai y cambió la geografía de la ciudad, hundiendo algunos terrenos, por lo que el río dejó de ser utilizable para la navegación hasta el mar.
+          <br>
+          En 2007, se creó la nueva Región de los Ríos, compuesta por las provincias de Valdivia y Ranco, y donde Valdivia es ciudad capital.
+      </div>
+
+      <div class="col-6 col-md-4">
+        <img src="http://www.memoriachilena.gob.cl/602/articles-9802_thumbnail.jpg" width="300">
+      </div>
+    </div>
+  </div>
+
+
+
+  
+    
+  <footer>
+    <p>Bootcamp P5 </p>
+    <p>Sitio creado por Consuelo Wevar</p>
+    <p>2022</p>
+
+  </footer>
+  
+  
+
+
+    <!--script JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

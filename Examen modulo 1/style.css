@@ -1,0 +1,61 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color:#ffffff;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 40px ;
+    background-color: rgb(234, 234, 234);
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 15px;
+}
+
+.imagen {
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#slide-title {
+    font-size: 50px;
+}
+
+#slide-text {
+    font-size: 30px;
+}
+
+.brand {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(208, 208, 208);
+    border-top: 2px solid rgb(163, 163, 163);
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+footer > p {
+    color: rgb(134, 134, 134);
+}
+
+
+
+
+/* pagina Noticias */
+.card {
+    display: inline-block;
+    margin-bottom:10px;
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: rgb(184, 33, 33);
+}
